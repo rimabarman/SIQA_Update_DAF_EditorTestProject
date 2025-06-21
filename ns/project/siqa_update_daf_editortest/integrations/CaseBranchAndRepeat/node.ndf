@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rimabarman</value>
-    <value name="lastModifiedDate">1750538399707</value>
+    <value name="lastModifiedDate">1750538505189</value>
     <value name="displayName">CaseBranchAndRepeat</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -171,6 +171,36 @@
         <value name="nodePathNew">0.2.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">7</number>
+      </record>
+      <record name="/0/3" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
+        <value name="itemType">CONTROLS</value>
+        <Boolean name="is_empty">false</Boolean>
+        <value name="nodePathNew">0.3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">8</number>
+      </record>
+      <record name="/0/3/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">false</value>
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <Boolean name="enabled">true</Boolean>
+          <double name="rank" type="Double">0.7</double>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">9</number>
+        <value name="nodePathNew">0.3.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">9</number>
       </record>
     </record>
   </record>
