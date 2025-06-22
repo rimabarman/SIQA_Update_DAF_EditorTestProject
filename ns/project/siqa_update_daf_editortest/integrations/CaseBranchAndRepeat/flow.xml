@@ -337,7 +337,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Null value appeared</value>
+  <value name="xml">Null value present</value>
 </Values>
 </DATA>
 </MAPSET>

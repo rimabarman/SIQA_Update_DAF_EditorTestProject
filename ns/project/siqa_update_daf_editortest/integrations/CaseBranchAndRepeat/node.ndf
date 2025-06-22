@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rimabarman</value>
-    <value name="lastModifiedDate">1750538839011</value>
+    <value name="lastModifiedDate">1750585036633</value>
     <value name="displayName">CaseBranchAndRepeat</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -81,6 +81,7 @@
           <value name="field_name">Val</value>
           <null name="wrapper_type"/>
         </record>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="name">CASE</value>
@@ -89,6 +90,7 @@
         <value name="nodePathNew">0.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+        <value name="nodePathForDebug">0.0</value>
       </record>
       <record name="/0/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -111,6 +113,8 @@
         <value name="nodePathNew">0.0.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">3</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.0.0</value>
       </record>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="name">CASE</value>
@@ -119,6 +123,7 @@
         <value name="nodePathNew">0.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <value name="nodePathForDebug">0.1</value>
       </record>
       <record name="/0/1/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -141,6 +146,8 @@
         <value name="nodePathNew">0.1.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">5</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.1.0</value>
       </record>
       <record name="/0/2" javaclass="com.wm.util.Values">
         <value name="name">CASE</value>
@@ -149,6 +156,7 @@
         <value name="nodePathNew">0.2</value>
         <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">6</number>
+        <value name="nodePathForDebug">0.2</value>
       </record>
       <record name="/0/2/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -171,6 +179,9 @@
         <value name="nodePathNew">0.2.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">7</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.2.0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/0/3" javaclass="com.wm.util.Values">
         <value name="name">CASE</value>
@@ -179,6 +190,7 @@
         <value name="nodePathNew">0.3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">8</number>
+        <value name="nodePathForDebug">0.3</value>
       </record>
       <record name="/0/3/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -201,6 +213,8 @@
         <value name="nodePathNew">0.3.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">9</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.3.0</value>
       </record>
     </record>
   </record>
